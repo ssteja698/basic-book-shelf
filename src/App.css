@@ -33,16 +33,18 @@ ul {
 
 ul.pagination li {
   display: inline-block;
-  width: 50px;
-  border: 1px solid #e2e2e2;
+  width: 55px;
+  border: 1px solid #6465A5;
   display: flex;
   justify-content: center;
   font-size: 25px;
+  border-radius: 3px;
+  background-color: #FFFFFF;
 }
 
 ul.pagination li a {
   text-decoration: none;
-  color: #337ab7;
+  color: #6465A5;
   font-size: 20px;
 }
 
@@ -51,18 +53,21 @@ ul.pagination li.active a {
 }
 
 ul.pagination li.active {
-  background-color: #337ab7;
+  background-color: #6465A5;
 }
 
-ul.pagination li a:hover,
+ul.pagination li a:hover {
+  color: #23394C;
+}
+
 ul.pagination li a.active {
-  color: blue;
+  color: white;
 }
 
 .page-selection {
   width: 48px;
   height: 30px;
-  color: #337ab7;
+  color: #6465A5;
 }
 
 .pagination-wrapper {
